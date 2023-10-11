@@ -1,5 +1,4 @@
 import React from "react";
-import "../styles/Header.css";
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -10,7 +9,7 @@ import "../styles/Header.css";
 
 const styles = {
   headerStyle: {
-    background: "blue",
+    background: "white",
   },
   headingStyle: {
     fontSize: "50px",
@@ -21,9 +20,26 @@ const styles = {
 
 function Footer() {
   return (
-    <header style={styles.headerStyle} className="header">
-      <h1 style={styles.headingStyle}>Footer</h1>
-    </header>
+    <footer>
+      <div className="footer_logo">
+        <a href="/"></a>
+      </div>
+      <div className="footer_links">
+        <a href="#">
+          <i className="fa-brands fa-github"></i> Github
+        </a>
+        <a href="#">
+          {" "}
+          <i className="fa-brands fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="#">
+          <i className="fa-brands fa-square-twitter"></i> Twitter
+        </a>
+      </div>
+    </footer>
+    // <header style={styles.headerStyle} className="header">
+    //   <h1 style={styles.headingStyle}>Footer</h1>
+    // </header>
   );
 }
 
