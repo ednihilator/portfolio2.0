@@ -7,15 +7,6 @@ import React from "react";
 // On a style object, we camelCase all property names, and put all of the values in quotes
 // Non quoted values default to "pixels", e.g. height, margin, padding
 
-const styles = {
-  headerStyle: {
-    background: "white",
-  },
-  headingStyle: {
-    fontSize: "50px",
-  },
-};
-
 // We use JSX curly braces to evaluate the style object
 
 function Footer() {
@@ -31,9 +22,6 @@ function Footer() {
         <a href="#">
           {" "}
           <i className="fa-brands fa-linkedin"></i> LinkedIn
-        </a>
-        <a href="#">
-          <i className="fa-brands fa-square-twitter"></i> Twitter
         </a>
       </div>
     </footer>

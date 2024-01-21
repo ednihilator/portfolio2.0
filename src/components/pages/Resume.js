@@ -3,8 +3,14 @@ import React from "react";
 export default function Resume() {
   return (
     <div className="resume">
-      <h1>Resume</h1>
-      <p>Placeholder for Resume</p>
+      <a
+        href="https://drive.google.com/drive/folders/0B2nXPThgIRUsRnNaSmlXMmM4enM?resourcekey=0-H8ACOozryJQMGQ5vhI-77g"
+        download="resume.pdf"
+        className="resumeBtn"
+        target="_blank"
+      >
+        Resume
+      </a>
     </div>
   );
 }
