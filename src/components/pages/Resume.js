@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div className="resume">
       <a
-        href="https://drive.google.com/drive/folders/0B2nXPThgIRUsRnNaSmlXMmM4enM?resourcekey=0-H8ACOozryJQMGQ5vhI-77g"
+        href="https://drive.google.com/file/d/1VTEymJoOfS-eZdRZ8n1uXepDDQ-bOauG/view"
         download="resume.pdf"
         className="resumeBtn"
         target="_blank"
