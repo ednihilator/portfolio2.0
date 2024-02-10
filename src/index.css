@@ -170,16 +170,16 @@ footer {
   margin-left: 10px;
 }
 
+/* .name,
 .email,
-.phone {
-  /* text-align: center; */
-  /* font-weight: bold; */
+.phone,
+.message {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin-top: 20px;
   font-size: 1.5rem;
-}
+} */
 
 .main-contact {
   justify-content: center;

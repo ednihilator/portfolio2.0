@@ -2,7 +2,6 @@ import React from "react";
 import ResumePDF from "./resume.pdf";
 // import { EmbedPDF } from "@simplepdf/react-embed-pdf";
 
-
 export default function Resume() {
   return (
     <div className="resume">

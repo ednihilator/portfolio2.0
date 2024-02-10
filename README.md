@@ -4,7 +4,7 @@
 
 This is my portoflio site that displays projects I've worked on and a little information about myself.
 
-## Table of Contents 
+## Table of Contents
 
 [credits](#credits)
 
@@ -22,7 +22,7 @@ Download the project file and type "npm start" in the terminal.
 
 Feel free to browse my site and check out the projects.
 
-   ![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.png)
 
 ## Credits
 
