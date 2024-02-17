@@ -1,20 +1,22 @@
-import React from "react";
-import ResumePDF from "./resume.pdf";
-// import { EmbedPDF } from "@simplepdf/react-embed-pdf";
+// import React from "react";
+// import ResumePDF from "./resume.pdf";
+// import ResumeIMG from "./resumePNG.png";
+// // import { EmbedPDF } from "@simplepdf/react-embed-pdf";
 
-export default function Resume() {
-  return (
-    <div className="resume">
-      <a
-        // href="https://drive.google.com/file/d/1NnYlM2lqI4tKo_aESPZiHk1RW5_N-vy_/view"
-        rel="noreferrer noopener"
-        href={ResumePDF}
-        // download="resume.pdf"
-        className="resumeBtn"
-        target="_blank"
-      >
-        Download Resume
-      </a>
-    </div>
-  );
-}
+// export default function Resume() {
+//   return (
+//     <div>
+      
+//       <a
+//         rel="noreferrer noopener"
+//         href={ResumePDF}
+//         // download="resume.pdf"
+//         className="resume"
+//         target="_blank"
+//       >
+//         <img className="resumeIMG" src={ResumeIMG} />
+        
+//       </a>
+//     </div>
+//   );
+// }

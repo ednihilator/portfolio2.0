@@ -2,7 +2,6 @@ import React from "react";
 import pet from "../../img/pet.png";
 import movie from "../../img/movie-giphy.png";
 import rateit from "../../img/rateit.png";
-import project1 from "../../img/project-image-1.webp";
 
 export default function Portfolio() {
   const projectArray = [
